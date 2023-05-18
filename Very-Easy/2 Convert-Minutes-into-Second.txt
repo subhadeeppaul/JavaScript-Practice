@@ -5,4 +5,5 @@ function convert(minutes) {
 	let res = 60*minutes;
 	return res;
 	
-} 
+}
+console.log(convert(6)); 
