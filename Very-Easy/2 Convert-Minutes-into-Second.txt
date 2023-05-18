@@ -7,3 +7,13 @@ function convert(minutes) {
 	
 }
 console.log(convert(6));  //360
+
+
+
+//Another solution
+
+const time = function convert(minutes){
+  return 60*minutes;
+}
+
+console.log(time(5)); //300
