@@ -6,4 +6,4 @@ function convert(minutes) {
 	return res;
 	
 }
-console.log(convert(6)); 
+console.log(convert(6));  //360
