@@ -17,3 +17,10 @@ const time = function convert(minutes){
 }
 
 console.log(time(5)); //300
+
+
+
+//Arrow Function 
+
+const time = (minutes) => 60*minutes;
+console.log(time(4));
