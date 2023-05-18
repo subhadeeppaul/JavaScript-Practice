@@ -1,0 +1,8 @@
+// Example : 5min -> 300sec
+
+My solution
+function convert(minutes) {
+	let res = 60*minutes;
+	return res;
+	
+} 
