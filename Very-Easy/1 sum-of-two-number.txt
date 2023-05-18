@@ -18,3 +18,11 @@ function addition(a, b) {
 
 console.log(addition(3,3));  //6
 console.log(addition("3",3));  //Sorry but you didn't pass two numbers.
+
+//Solution -3 (Arrow function)
+
+const sum = function addition(a, b) {
+    return a+b;
+}
+
+console.log(sum(5,9)); //14
