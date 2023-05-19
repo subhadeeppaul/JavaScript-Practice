@@ -1,7 +1,18 @@
-My Solution :
+//My Solution :
 
 function addition(num) {
 	let res = num +1;
-	return res;
-	
+	return res;	
 }
+
+console.log(addition(5));  //6
+
+
+//Another Solution 
+
+function addition(num){
+	return ++num;
+}
+
+console.log(addition(4)); //5
+
