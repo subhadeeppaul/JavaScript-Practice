@@ -1,0 +1,7 @@
+My Solution :
+
+function addition(num) {
+	let res = num +1;
+	return res;
+	
+}
